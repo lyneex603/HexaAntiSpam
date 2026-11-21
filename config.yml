@@ -1,0 +1,40 @@
+# Задержка между сообщениями
+delay:
+  enabled: true
+  seconds: 2
+
+# Блок капса
+caps:
+  enabled: true
+  percent: 90
+  # Сообщения короче этого числа букв не проверяются
+  min-letters: 6
+
+# Блок рекламы (IP-адреса и домены)
+ads:
+  enabled: true
+  # Что разрешено писать (замени на свой адрес сервера)
+  whitelist:
+    - hexatime.ru
+  # Какие доменные зоны считать рекламой
+  domains:
+    - ru
+    - com
+    - net
+    - org
+    - su
+    - рф
+    - xyz
+    - gg
+    - fun
+    - pro
+    - club
+    - online
+    - site
+
+messages:
+  delay: "&cНе спамьте! Подождите &e%time% &cсек."
+  caps: "&cНе пишите капсом!"
+  ad: "&cРеклама запрещена!"
+  reload: "&aКонфиг HexaAntiSpam перезагружен."
+  no-permission: "&cНет прав."

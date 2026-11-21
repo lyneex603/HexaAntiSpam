@@ -1,0 +1,17 @@
+name: HexaAntiSpam
+version: 1.0.0
+main: hexa.antispam.HexaAntiSpam
+api-version: '1.21'
+description: Anti-spam for chat
+commands:
+  hexaantispam:
+    description: Перезагрузка конфига
+    usage: /hexaantispam reload
+    aliases: [has]
+permissions:
+  hexa.antispam.bypass:
+    description: Обход антиспама
+    default: op
+  hexa.antispam.reload:
+    description: Перезагрузка конфига
+    default: op
